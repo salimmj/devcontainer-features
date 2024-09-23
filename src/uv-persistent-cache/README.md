@@ -7,7 +7,7 @@ A feature that provides persistent cache for uv python package manager
 
 ```json
 "features": {
-    "ghcr.io/salimmj/devcontainer-features/uv-persistent-cache:1": {}
+    "ghcr.io/salimmj/src/uv-persistent-cache:1": {}
 }
 ```
 
@@ -17,4 +17,4 @@ A feature that provides persistent cache for uv python package manager
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/salimmj/devcontainer-features/blob/main/src/uv-persistent-cache/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/salimmj/src/blob/main/src/uv-persistent-cache/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

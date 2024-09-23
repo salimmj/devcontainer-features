@@ -2,7 +2,7 @@
 
 set -e
 
-content_base_dir=/usr/local/share/github-salimmj/devcontainer-features
+content_base_dir=/usr/local/share/github-salimmj/src
 feature_content_dir=$content_base_dir/uv-persistent-cache
 on_create_script=$feature_content_dir/onCreate.sh
 

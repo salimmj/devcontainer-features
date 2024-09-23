@@ -1,0 +1,11 @@
+{
+    "id": "uv",
+    "version": "1.0.0",
+    "name": "UV Installer",
+    "description": "Installs the UV binary and makes it available in the PATH.",
+    "installsAfter": ["uv-persistent-cache"],
+    "options": {},
+    "containerEnv": {
+        "UV_LINK_MODE": "copy"
+    }
+}
