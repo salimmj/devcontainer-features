@@ -1,0 +1,19 @@
+{
+    "name": "uv - persistent cache",
+    "id": "uv-persistent-cache",
+    "version": "1.0.0",
+    "description": "A feature that provides persistent cache for uv python package manager",
+    "containerEnv": {
+        "UV_CACHE_DIR": "/mnt/uv-persistent-cache"
+    },
+    "mounts": [
+        {
+            "source": "uv-persistent-cache-${devcontainerId}",
+            "target": "/mnt/uv-persistent-cache",
+            "type": "volume"
+        }
+    ],
+    "onCreateCommand": [
+        "/usr/local/share/github-salimmj/devcontainer-features/uv-persistent-cache/onCreate.sh"
+    ]
+}
